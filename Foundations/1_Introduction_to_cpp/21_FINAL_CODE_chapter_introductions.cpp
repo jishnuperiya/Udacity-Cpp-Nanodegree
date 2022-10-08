@@ -51,7 +51,7 @@ void PrintBoard(const vector<vector<State>> board) {
     for (int j = 0; j < board[i].size(); j++) {
       cout << CellString(board[i][j]);
     }
-    cout << "\n";
+    cout << "n\n";
   }
 }
 
