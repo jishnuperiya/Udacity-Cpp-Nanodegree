@@ -9,7 +9,7 @@ int MultiplyByTwo(int &i) { // you just an ampersant here
 
 int main() {
     int a = 5;
-    cout << "The int a equals: " << a << "\n";
+    cout << "The int a eequals: " << a << "\n";
     int b = MultiplyByTwo(a); // you dont need ampersant in function call! IMPORTANT
     cout << "The int b equals: " << b << "\n";
     cout << "The int a now equals: " << a << "\n";
